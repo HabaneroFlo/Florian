@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Website</title>
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+
+
+
+
+    <style>
+        body {
+            font-family: 'Handlee', cursive;
+            font-size: x-large;
+        }
+
+        .HabaneroFlo-Bild {
+            width: 100%;
+        }
+
+        .HabaneroFlo-Bild-Container {
+            background-color: black;
+            padding: 16px;
+            max-width: 950px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .headline {
+            color: blue;
+            text-align: center;
+
+            text-decoration-color: blue;
+            text-decoration: underline;
+            text-decoration-style: double;
+        }
+
+
+
+
+        .Youtube-Bild {
+            background-color: black;
+            padding: 8px;
+        }
+
+        .Youtube-Container {
+            display: flex;
+            justify-content: flex-start;
+            gap: 0px 25px;
+            align-items: center;
+        }
+
+        .Youtube-Container-Button-Bild {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 0px 25px;
+        }
+
+        .Youtube-Container-Text {
+            text-decoration: underline;
+        }
+
+
+
+
+        .Deepl-Bild {
+            background-color: black;
+            padding: 8px;
+        }
+
+        .Deepl-Container {
+            display: flex;
+            justify-content: flex-start;
+            gap: 0px 25px;
+            align-items: center;
+        }
+
+        .Deepl-Container-Button-Bild {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 0px 25px;
+        }
+
+        .Deepl-Container-Text {
+            text-decoration: underline;
+        }
+
+
+
+
+        .Web-de-Bild {
+            background-color: black;
+            padding: 8px;
+        }
+
+        .Web-de-Container {
+            display: flex;
+            justify-content: flex-start;
+            gap: 0px 25px;
+            align-items: center;
+        }
+
+        .Web-de-Container-Button-Bild {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 0px 25px;
+        }
+
+        .Web-de-Container-Text {
+            text-decoration: underline;
+        }
+
+
+
+
+        .Vertretung-Bild {
+            background-color: black;
+            padding: 8px;
+        }
+
+        .Vertretung-Container {
+            display: flex;
+            justify-content: flex-start;
+            gap: 0px 25px;
+            align-items: center;
+        }
+
+        .Vertretung-Container-Button-Bild {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 0px 25px;
+        }
+
+        .Vertretung-Container-Text {
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+
+
+
+
+
+<body>
+    <h1 class="headline">
+        Florian
+    </h1>
+
+    <br> <br>  
+    <div class="HabaneroFlo-Bild-Container">   
+        <img class="HabaneroFlo-Bild" src="HabaneroFlo-Bild.jpg" style="border-bottom-style: solid;border-bottom-width: 0px;margin-bottom: -8px; max-width: 950px;">
+    </div> 
+
+
+
+    <br> <br>
+
+
+
+    <div class="Youtube-Container">  
+        <span class="Youtube-Container-Text">Youtube:</span>
+
+        <div class="Youtube-Container-Button-Bild"> 
+            <button onclick="Youtube_Button()" style="width: auto; height: 50px; font-size: x-large; font-family: 'Handlee', cursive;">Youtube</button>
+            <img class="Youtube-Bild" src="Youtube_Bild.png" style="border-bottom-style: solid;border-bottom-width: 0px;margin-bottom: -8px;">
+        </div>
+    </div>
+    
+   
+   
+
+    <br> <br>
+
+
+
+
+    <div class="Deepl-Container">
+        <span class="Deepl-Container-Text">Deepl:</span>
+
+        <div class="Deepl-Container-Button-Bild"> 
+            <button onclick="Deepl_Button()" style="width: auto; height: 50px; font-size: x-large; font-family: 'Handlee', cursive;">Deepl</button>
+            <img class="Deepl-Bild" src="Deepl-Bild.png" style="border-bottom-style: solid;border-bottom-width: 0px;margin-bottom: -8px;">
+        </div>
+    </div>
+
+
+
+
+    <br> <br>
+
+
+
+    
+    <div class="Web-de-Container">
+        <span class="Web-de-Container-Text">Web.de:</span>
+
+        <div class="Web-de-Container-Button-Bild"> 
+            <button onclick="Web_de_Button()" style="width: auto; height: 50px; font-size: x-large; font-family: 'Handlee', cursive;">Web.de</button>
+            <img class="Web-de-Bild" src="Web-de.png" style="border-bottom-style: solid;border-bottom-width: 0px;margin-bottom: -8px;">
+        </div>
+    </div>
+
+
+
+
+    <br> <br>
+
+
+
+    
+    <div class="Vertretung-Container">
+        <span class="Vertretung-Container-Text">Vertretung:</span>
+
+        <div class="Vertretung-Container-Button-Bild"> 
+            <button onclick="Vertretung_Button()" style="width: auto; height: 50px; font-size: x-large; font-family: 'Handlee', cursive;">Vertretung</button>
+            <img class="Vertretung-Bild" src="Vertretung.png" style="border-bottom-style: solid;border-bottom-width: 0px;margin-bottom: -8px;">
+        </div>
+    </div>
+
+
+
+
+    <script>
+        function Youtube_Button(){
+            var currentWindow = window;
+
+            window.open("https://youtube.com");
+
+            currentWindow.focus();
+        }
+
+        function Deepl_Button(){
+            var currentWindow = window;
+
+            window.open("https://www.deepl.com/translator");
+
+            currentWindow.focus();
+        }
+
+        function Web_de_Button(){
+            var currentWindow = window;
+
+            window.open("https://web.de/");
+
+            currentWindow.focus();
+        }
+
+        function Vertretung_Button(){
+            var currentWindow = window;
+
+            window.open("https://go.gymnasium-gernsheim.de/index.php?status=0&olf=2jcv89skd2k409g0lskcms8f78293ld0a9g8gj&code=jfa3&sp=");
+        
+            currentWindow.focus();
+        }
+    </script>
+
+</body>
+
+
+</html>
