@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Website</title>
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+
+
+
+    <script src="passwort.js"></script>
+
+
+
+    <style>
+        body {
+        font-family: 'Handlee', cursive;
+        font-size: x-large;
+        }
+
+
+        .form-box {
+            width: 500px;
+            background: rgba(0, 0, 0, 0.8);
+            margin: 12% auto;
+            padding: 50px 0;
+            color: #fff;
+            box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0);
+        }
+
+        h1{
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .input-box{
+            margin: 31px auto;
+            width: 80%;
+            border-bottom: 1px solid #fff;
+            padding-top: 10px;
+            padding-bottom: 5px;
+        }
+
+        .input-box input{
+            width: 90%;
+            border: none;
+            outline: none;
+            background: transparent;
+            color: #fff;
+        }
+
+        ::placeholder{
+            color: #ccc;
+        }
+
+        .fa{
+            margin-right: 10px;
+        }
+
+        .eye{
+            position: absolute;
+        }
+
+        #hide1{
+            display: none;
+        }
+
+        .login-btn{
+            margin: 40px auto 20px;
+            width: 80%;
+            display: block;
+            outline: none;
+            padding: 10px 0;
+            border: 1px solid #fff;
+            cursor: pointer;
+            background: transparent;
+            color: #fff;
+            font-size: 16px;
+        }
+        
+
+    </style>
+
+</head>
+
+
+
+<body>
+
+    <br>
+
+    <div class="form-box">
+        <h1>Bitte Einloggen:</h1>
+
+        <div class="input-box">
+            <!--<i class="fa fa-envelope-o"></i>-->
+
+            <input type="benutzername" placeholder="Benutzername" required id="Benutzername-Input">
+        </div>
+
+        <div class="input-box">
+            <!--<i class="fa fa-key"></i>-->
+
+            <form class="passform" action="florian.html" onsubmit="return passCheck()">
+                <input type="password" placeholder="Password" required id="Password-Input">
+
+                <button type="submit" class="login-btn">Bestätigen</button>
+            </form>
+
+            <!--<span class="eye" onclick="Eyes()"></span>
+            <i id="hide1" class="fa fa-eye"></i>
+            <i id="hide2" class="fa fa-eye-slash"></i>
+            </span>-->
+        </div>
+
+    </div>
+
+
+
+
+    <script>
+       /* function Eyes(){
+            var x = document.getElementById("Password-Input");
+            var y = document.getElementById("hide1");
+            var z = document.getElementById("hide2");
+
+            if(x.type === 'password'){
+                x.type = "text";
+                y.style.display = "block";
+                z.style.display = "none";
+            }
+            else{
+                x.type = "password";
+                y.style.display = "none";
+                z.style.display = "block";
+            }
+        }*/
+
+    </script>
+
+
+</body>
+
+
+</html>
